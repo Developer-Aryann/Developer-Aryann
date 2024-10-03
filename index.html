@@ -1,1228 +1,914 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vCard - Personal Portfolio</title>
+<html class="no-js" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Laralink" />
+  <!-- Favicon Icon -->
+  <link rel="icon" href="assets/img/favicon.png" />
+  <!-- Site Title -->
+  <title>Mohit Raj</title>
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/slick.css" />
+  <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/animate.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-
-    <main>
-
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.png"
-              alt="Mohit Raj"
-              width="80"
-            />
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Mohit Raj">Mohit Raj</h1>
-
-            <p class="title">Web developer</p>
+<body>
+  <div class="cs-preloader cs-center">
+    <div class="cs-preloader_in"></div>
+  </div>
+  <!-- Start Header Section -->
+  <header class="cs-site_header cs-style1 text-uppercase cs-sticky_header">
+    <div class="cs-main_header">
+      <div class="container">
+        <div class="cs-main_header_in">
+          <div class="cs-main_header_left">
+            <a class="cs-site_branding" href="index-2.html">
+              <img src="assets/img/logo.svg" alt="Logo" />
+            </a>
           </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-
-                <a href="mailto:bhagataryan75@gmail.com" class="contact-link"
-                  >bhagataryan75@gmail.com/a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+919955302489" class="contact-link"
-                  >+91-9955302489</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="1982-06-23">May 30, 2005</time>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Mirjanhat, Bhagalpur, Bihar, India</address>
-              </div>
-            </li>
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
-      <!--
-      - #main-content
-    -->
-
-      <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
-
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
-
-        <!--
-        - #ABOUT
-      -->
-
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-
-          <section class="about-text">
-            <p>
-              I'm Creative developer from Bhagalpur, india,
-              working in web development. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs.
-            </p>
-
-            <p>
-              My job is to build your website so that it is functional and
-              user-friendly but at the same time attractive. Moreover, I add
-              personal touch to your product and make sure that is eye-catching
-              and easy to use. My aim is to bring across your message and
-              identity in the most creative way. I created web design for many
-              famous brand companies.
-            </p>
-          </section>
-
-          <!--
-          - service
-        -->
-
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
-
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                  <p class="service-item-text">
-                    Professional development of applications for iOS and
-                    Android.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-photo.svg"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Photography</h4>
-
-                  <p class="service-item-text">
-                    I make high-quality photos of any category at a professional
-                    level.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <!--
-          - testimonials
-        -->
-
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
-
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-1.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Daniel lewis
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-2.png"
-                      alt="Jessica miller"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Jessica miller
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-3.png"
-                      alt="Emily evans"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Emily evans
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-4.png"
-                      alt="Henry william"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
-
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Henry william
-                  </h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <!--
-          - testimonials modal
-        -->
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
-
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
-
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum
-                    dolor sit amet, ullamcous cididt consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels
-                    dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
+          <div class="cs-main_header_right">
+            <div class="cs-toolbox">
+              <span class="cs-icon_btn">
+                <span class="cs-icon_btn_in">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </span>
+            </div>
           </div>
-
-          <!--
-          - clients
-        -->
-
-          <section class="clients">
-            <h3 class="h3 clients-title">Clients</h3>
-
-            <ul class="clients-list has-scrollbar">
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-1-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-2-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-3-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-4-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-5-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-6-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
-        - #RESUME
-      -->
-
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="cs-side_header">
+    <button class="cs-close"></button>
+    <div class="cs-side_header_overlay"></div>
+    <div class="cs-side_header_in">
+      <div class="cs-side_header_shape"></div>
+      <a class="cs-site_branding" href="index-2.html">
+        <img src="assets/img/footer_logo.svg" alt="Logo" />
+      </a>
+      <div class="cs-side_header_box">
+        <h2 class="cs-side_header_heading">
+          Do you have a project in your <br />
+          mind? Keep connect us.
+        </h2>
+      </div>
+      <div class="cs-side_header_box">
+        <h3 class="cs-side_header_title cs-primary_color">Contact Us</h3>
+        <ul class="cs-contact_info cs-style1 cs-mp0">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17 12.5C15.75 12.5 14.55 12.3 13.43 11.93C13.08 11.82 12.69 11.9 12.41 12.17L10.21 14.37C7.38 12.93 5.06 10.62 3.62 7.79L5.82 5.58C6.1 5.31 6.18 4.92 6.07 4.57C5.7 3.45 5.5 2.25 5.5 1C5.5 0.45 5.05 0 4.5 0H1C0.45 0 0 0.45 0 1C0 10.39 7.61 18 17 18C17.55 18 18 17.55 18 17V13.5C18 12.95 17.55 12.5 17 12.5ZM9 0V10L12 7H18V0H9Z"
+                fill="#FF4A17" />
+            </svg>
+            <span>+91 9955302489</span>
+          </li>
+          <li>
+            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20 6.98V16C20 17.1 19.1 18 18 18H2C0.9 18 0 17.1 0 16V4C0 2.9 0.9 2 2 2H12.1C12.04 2.32 12 2.66 12 3C12 4.48 12.65 5.79 13.67 6.71L10 9L2 4V6L10 11L15.3 7.68C15.84 7.88 16.4 8 17 8C18.13 8 19.16 7.61 20 6.98ZM14 3C14 4.66 15.34 6 17 6C18.66 6 20 4.66 20 3C20 1.34 18.66 0 17 0C15.34 0 14 1.34 14 3Z"
+                fill="#FF4A17" />
+            </svg>
+            <span>bhagataryan75@gmail.com</span>
+          </li>
+          <li>
+            <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 0C3.13 0 0 3.13 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                fill="#FF4A17" />
+            </svg>
+            <span>Mirjanhat, Warshaligang Road, <br />Bihar, India </span>
+          </li>
+        </ul>
+      </div>
+      <div class="cs-side_header_box">
+        <h3 class="cs-side_header_title cs-primary_color">Subscribe</h3>
+        <div class="cs-newsletter cs-style1">
+          <form action="#" class="cs-newsletter_form">
+            <input type="email" class="cs-newsletter_input" placeholder="example@gmail.com" />
+            <button class="cs-newsletter_btn">
+              <span>Send</span>
+            </button>
+          </form>
+          <div class="cs-newsletter_text">
+            Stay informed with our latest updates. Subscribe to our newsletter
+            for exclusive content and offers.
+          </div>
+        </div>
+      </div>
+      <div class="cs-side_header_box">
+        <div class="cs-social_btns cs-style1">
+          <a href="#" class="cs-center">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.04799 13.7497H1.45647V5.4043H4.04799V13.7497ZM2.75084 4.2659C1.92215 4.2659 1.25 3.57952 1.25 2.75084C1.25 2.35279 1.40812 1.97105 1.68958 1.68958C1.97105 1.40812 2.35279 1.25 2.75084 1.25C3.14888 1.25 3.53063 1.40812 3.81209 1.68958C4.09355 1.97105 4.25167 2.35279 4.25167 2.75084C4.25167 3.57952 3.57924 4.2659 2.75084 4.2659ZM13.7472 13.7497H11.1613V9.68722C11.1613 8.71903 11.1417 7.4774 9.81389 7.4774C8.46652 7.4774 8.26004 8.5293 8.26004 9.61747V13.7497H5.67132V5.4043H8.15681V6.54269H8.19308C8.53906 5.887 9.38421 5.19503 10.6451 5.19503C13.2679 5.19503 13.75 6.92215 13.75 9.16546V13.7497H13.7472Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.4651 2.95396C11.4731 3.065 11.4731 3.17606 11.4731 3.2871C11.4731 6.67383 8.89535 10.5761 4.18402 10.5761C2.73255 10.5761 1.38421 10.1557 0.25 9.42608C0.456226 9.44986 0.654494 9.4578 0.868655 9.4578C2.06629 9.4578 3.16879 9.0533 4.04918 8.36326C2.92291 8.33946 1.97906 7.60183 1.65386 6.5866C1.81251 6.61038 1.97112 6.62624 2.1377 6.62624C2.36771 6.62624 2.59774 6.59451 2.81188 6.53901C1.63802 6.30105 0.757595 5.26996 0.757595 4.02472V3.99301C1.09864 4.18336 1.49524 4.30233 1.91558 4.31818C1.22554 3.85814 0.773464 3.07294 0.773464 2.1846C0.773464 1.70872 0.900344 1.27249 1.12244 0.891774C2.38355 2.44635 4.27919 3.46156 6.40481 3.57262C6.36516 3.38226 6.34136 3.184 6.34136 2.9857C6.34136 1.57388 7.4835 0.423828 8.90323 0.423828C9.64086 0.423828 10.3071 0.733156 10.7751 1.23284C11.354 1.1218 11.9093 0.907643 12.401 0.614185C12.2106 1.20906 11.8061 1.70875 11.2748 2.02598C11.7903 1.97049 12.29 1.82769 12.75 1.62942C12.4011 2.13702 11.9648 2.5891 11.4651 2.95396V2.95396Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.4888 1.48066C12.345 0.939353 11.9215 0.513038 11.3837 0.368362C10.4089 0.105469 6.5 0.105469 6.5 0.105469C6.5 0.105469 2.59116 0.105469 1.61633 0.368362C1.07853 0.513061 0.65496 0.939353 0.5112 1.48066C0.25 2.4618 0.25 4.50887 0.25 4.50887C0.25 4.50887 0.25 6.55595 0.5112 7.53709C0.65496 8.0784 1.07853 8.48695 1.61633 8.63163C2.59116 8.89452 6.5 8.89452 6.5 8.89452C6.5 8.89452 10.4088 8.89452 11.3837 8.63163C11.9215 8.48695 12.345 8.0784 12.4888 7.53709C12.75 6.55595 12.75 4.50887 12.75 4.50887C12.75 4.50887 12.75 2.4618 12.4888 1.48066V1.48066ZM5.22158 6.36746V2.65029L8.48861 4.50892L5.22158 6.36746V6.36746Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.87612 8.149C2.87612 8.87165 2.28571 9.46205 1.56306 9.46205C0.840402 9.46205 0.25 8.87165 0.25 8.149C0.25 7.42634 0.840402 6.83594 1.56306 6.83594H2.87612V8.149ZM3.53795 8.149C3.53795 7.42634 4.12835 6.83594 4.851 6.83594C5.57366 6.83594 6.16406 7.42634 6.16406 8.149V11.4369C6.16406 12.1596 5.57366 12.75 4.851 12.75C4.12835 12.75 3.53795 12.1596 3.53795 11.4369V8.149ZM4.851 2.87612C4.12835 2.87612 3.53795 2.28571 3.53795 1.56306C3.53795 0.840402 4.12835 0.25 4.851 0.25C5.57366 0.25 6.16406 0.840402 6.16406 1.56306V2.87612H4.851V2.87612ZM4.851 3.53795C5.57366 3.53795 6.16406 4.12835 6.16406 4.851C6.16406 5.57366 5.57366 6.16406 4.851 6.16406H1.56306C0.840402 6.16406 0.25 5.57366 0.25 4.851C0.25 4.12835 0.840402 3.53795 1.56306 3.53795H4.851V3.53795ZM10.1239 4.851C10.1239 4.12835 10.7143 3.53795 11.4369 3.53795C12.1596 3.53795 12.75 4.12835 12.75 4.851C12.75 5.57366 12.1596 6.16406 11.4369 6.16406H10.1239V4.851V4.851ZM9.46205 4.851C9.46205 5.57366 8.87165 6.16406 8.149 6.16406C7.42634 6.16406 6.83594 5.57366 6.83594 4.851V1.56306C6.83594 0.840402 7.42634 0.25 8.149 0.25C8.87165 0.25 9.46205 0.840402 9.46205 1.56306V4.851V4.851ZM8.149 10.1239C8.87165 10.1239 9.46205 10.7143 9.46205 11.4369C9.46205 12.1596 8.87165 12.75 8.149 12.75C7.42634 12.75 6.83594 12.1596 6.83594 11.4369V10.1239H8.149ZM8.149 9.46205C7.42634 9.46205 6.83594 8.87165 6.83594 8.149C6.83594 7.42634 7.42634 6.83594 8.149 6.83594H11.4369C12.1596 6.83594 12.75 7.42634 12.75 8.149C12.75 8.87165 12.1596 9.46205 11.4369 9.46205H8.149Z"
+                fill="white"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header Section -->
+  <!-- Start Hero -->
+  <div class="cs-hero cs-style8 cs-shape_wrap_1" id="home">
+    <div class="cs-shape_1"></div>
+    <div class="container">
+      <div class="cs-hero_img_box">
+        <img src="assets/img/self-confidence.png" alt="Hero" />
+        <div class="cs-hero_card cs-position_1">
+          <h3 class="mb-0">02+</h3>
+          <p class="mb-0">years experience as web Developer</p>
+        </div>
+        <div class="cs-hero_card cs-position_2">
+          <h3 class="mb-0">8+</h3>
+          <p class="mb-0">Projects completed</p>
+        </div>
+      </div>
+      <div class="cs-height_0 cs-height_lg_50"></div>
+      <div class="cs-hero_text">
+        <h2 class="cs-hero_intro_title">Hello, I am 👋</h2>
+        <h1 class="cs-hero_title wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
+          Mohit Raj
+        </h1>
+        <div class="cs-hero_subtitle">
+          Hailing from Bhagalpur, Bihar, India, I come with a wealth of web
+          development expertise. I'm eager to engage in a conversation with
+          you about my distinctive offerings and passions.
+        </div>
+        <div class="cs-social_btns cs-style1">
+          <a href="https://www.linkedin.com/in/Mr-Mohit-Raj/" target="_blank" class="cs-center">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.04799 13.7497H1.45647V5.4043H4.04799V13.7497ZM2.75084 4.2659C1.92215 4.2659 1.25 3.57952 1.25 2.75084C1.25 2.35279 1.40812 1.97105 1.68958 1.68958C1.97105 1.40812 2.35279 1.25 2.75084 1.25C3.14888 1.25 3.53063 1.40812 3.81209 1.68958C4.09355 1.97105 4.25167 2.35279 4.25167 2.75084C4.25167 3.57952 3.57924 4.2659 2.75084 4.2659ZM13.7472 13.7497H11.1613V9.68722C11.1613 8.71903 11.1417 7.4774 9.81389 7.4774C8.46652 7.4774 8.26004 8.5293 8.26004 9.61747V13.7497H5.67132V5.4043H8.15681V6.54269H8.19308C8.53906 5.887 9.38421 5.19503 10.6451 5.19503C13.2679 5.19503 13.75 6.92215 13.75 9.16546V13.7497H13.7472Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.4651 2.95396C11.4731 3.065 11.4731 3.17606 11.4731 3.2871C11.4731 6.67383 8.89535 10.5761 4.18402 10.5761C2.73255 10.5761 1.38421 10.1557 0.25 9.42608C0.456226 9.44986 0.654494 9.4578 0.868655 9.4578C2.06629 9.4578 3.16879 9.0533 4.04918 8.36326C2.92291 8.33946 1.97906 7.60183 1.65386 6.5866C1.81251 6.61038 1.97112 6.62624 2.1377 6.62624C2.36771 6.62624 2.59774 6.59451 2.81188 6.53901C1.63802 6.30105 0.757595 5.26996 0.757595 4.02472V3.99301C1.09864 4.18336 1.49524 4.30233 1.91558 4.31818C1.22554 3.85814 0.773464 3.07294 0.773464 2.1846C0.773464 1.70872 0.900344 1.27249 1.12244 0.891774C2.38355 2.44635 4.27919 3.46156 6.40481 3.57262C6.36516 3.38226 6.34136 3.184 6.34136 2.9857C6.34136 1.57388 7.4835 0.423828 8.90323 0.423828C9.64086 0.423828 10.3071 0.733156 10.7751 1.23284C11.354 1.1218 11.9093 0.907643 12.401 0.614185C12.2106 1.20906 11.8061 1.70875 11.2748 2.02598C11.7903 1.97049 12.29 1.82769 12.75 1.62942C12.4011 2.13702 11.9648 2.5891 11.4651 2.95396V2.95396Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.4888 1.48066C12.345 0.939353 11.9215 0.513038 11.3837 0.368362C10.4089 0.105469 6.5 0.105469 6.5 0.105469C6.5 0.105469 2.59116 0.105469 1.61633 0.368362C1.07853 0.513061 0.65496 0.939353 0.5112 1.48066C0.25 2.4618 0.25 4.50887 0.25 4.50887C0.25 4.50887 0.25 6.55595 0.5112 7.53709C0.65496 8.0784 1.07853 8.48695 1.61633 8.63163C2.59116 8.89452 6.5 8.89452 6.5 8.89452C6.5 8.89452 10.4088 8.89452 11.3837 8.63163C11.9215 8.48695 12.345 8.0784 12.4888 7.53709C12.75 6.55595 12.75 4.50887 12.75 4.50887C12.75 4.50887 12.75 2.4618 12.4888 1.48066V1.48066ZM5.22158 6.36746V2.65029L8.48861 4.50892L5.22158 6.36746V6.36746Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" class="cs-center">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.87612 8.149C2.87612 8.87165 2.28571 9.46205 1.56306 9.46205C0.840402 9.46205 0.25 8.87165 0.25 8.149C0.25 7.42634 0.840402 6.83594 1.56306 6.83594H2.87612V8.149ZM3.53795 8.149C3.53795 7.42634 4.12835 6.83594 4.851 6.83594C5.57366 6.83594 6.16406 7.42634 6.16406 8.149V11.4369C6.16406 12.1596 5.57366 12.75 4.851 12.75C4.12835 12.75 3.53795 12.1596 3.53795 11.4369V8.149ZM4.851 2.87612C4.12835 2.87612 3.53795 2.28571 3.53795 1.56306C3.53795 0.840402 4.12835 0.25 4.851 0.25C5.57366 0.25 6.16406 0.840402 6.16406 1.56306V2.87612H4.851V2.87612ZM4.851 3.53795C5.57366 3.53795 6.16406 4.12835 6.16406 4.851C6.16406 5.57366 5.57366 6.16406 4.851 6.16406H1.56306C0.840402 6.16406 0.25 5.57366 0.25 4.851C0.25 4.12835 0.840402 3.53795 1.56306 3.53795H4.851V3.53795ZM10.1239 4.851C10.1239 4.12835 10.7143 3.53795 11.4369 3.53795C12.1596 3.53795 12.75 4.12835 12.75 4.851C12.75 5.57366 12.1596 6.16406 11.4369 6.16406H10.1239V4.851V4.851ZM9.46205 4.851C9.46205 5.57366 8.87165 6.16406 8.149 6.16406C7.42634 6.16406 6.83594 5.57366 6.83594 4.851V1.56306C6.83594 0.840402 7.42634 0.25 8.149 0.25C8.87165 0.25 9.46205 0.840402 9.46205 1.56306V4.851V4.851ZM8.149 10.1239C8.87165 10.1239 9.46205 10.7143 9.46205 11.4369C9.46205 12.1596 8.87165 12.75 8.149 12.75C7.42634 12.75 6.83594 12.1596 6.83594 11.4369V10.1239H8.149ZM8.149 9.46205C7.42634 9.46205 6.83594 8.87165 6.83594 8.149C6.83594 7.42634 7.42634 6.83594 8.149 6.83594H11.4369C12.1596 6.83594 12.75 7.42634 12.75 8.149C12.75 8.87165 12.1596 9.46205 11.4369 9.46205H8.149Z"
+                fill="white"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="cs-hero_btn">
+          <a href="portfolio.html" class="cs-text_btn">
+            <span>Contact Us</span>
+            <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM0 6.75H25V5.25H0V6.75Z"
+                fill="currentColor"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero -->
+  <!-- Start services Project -->
+  <section>
+    <div class="cs-height_145 cs-height_lg_75"></div>
+    <div class="container">
+      <div class="cs-section_heading cs-style1 text-center">
+        <h3 class="cs-section_subtitle">Services</h3>
+        <h2 class="cs-section_title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+          Our core services
+        </h2>
+      </div>
+    </div>
+    <div class="cs-height_90 cs-height_lg_45"></div>
+    <div class="container">
+      <div class="cs-iconbox_3_list cs-style2">
+        <div class="cs-hover_tab active">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpeg" alt="Image" class="w-100 cs-radius_15" />
               </div>
-
-              <h3 class="h3">Education</h3>
             </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  JIMS University (Delhi)
-                </h4>
-
-                <span>2024 — 2028</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-                <span>2006 — 2007</span>
-
-                <p class="timeline-text">
-                  Ratione voluptatem sequi nesciunt, facere quisquams facere
-                  menda ossimus, omnis voluptas assumenda est omnis..
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  High school
-                </h4>
-
-                <span>2021 — 2024</span>
-
-                <p class="timeline-text">
-                  Duis aute irure dolor in reprehenderit in voluptate, quila
-                  voluptas mag odit aut fugit, sed consequuntur magni dolores
-                  eos.
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z"
+                  fill="currentColor" />
+              </svg>
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Web Developer</h2>
+              <div class="cs-iconbox_subtitle">
+                Crafting high-quality websites with attention to detail,
+                ensuring functionality, performance, and user-friendly
+                experiences.
               </div>
-
-              <h3 class="h3">Experience</h3>
             </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_8.jpeg" alt="Image" class="w-100 cs-radius_15" />
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z"
+                  fill="currentColor" />
+              </svg>
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Web Manager</h2>
+              <div class="cs-iconbox_subtitle">
+                Overseeing the maintenance, optimization, and updates of
+                websites to ensure seamless functionality and a smooth user
+                experience.
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_9.jpeg" alt="Image" class="w-100 cs-radius_15" />
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z"
+                  fill="currentColor" />
+              </svg>
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Marketing</h2>
+              <div class="cs-iconbox_subtitle">
+                Creating strategic campaigns that drive brand awareness,
+                engage audiences, and deliver measurable business growth with
+                our marketing partners.
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="cs-height_120 cs-height_lg_50"></div>
+    </div>
+  </section>
+  <!-- End services Project -->
+  <!-- Start Portfolio -->
+  <div class="cs-height_145 cs-height_lg_75"></div>
+  <div class="container">
+    <div class="cs-portfolio_1_heading">
+      <div class="cs-section_heading cs-style1">
+        <h3 class="cs-section_subtitle">Our Portfolio</h3>
+        <h2 class="cs-section_title">Some recent work</h2>
+      </div>
+      <div class="cs-isotop_filter cs-style1">
+        <ul class="cs-mp0 cs-center">
+          <li class="active"><a href="#" data-filter="*">All</a></li>
+          <li><a href="#" data-filter=".web_design">Web Projects</a></li>
+          <li>
+            <a href="#" data-filter=".ui_ux_design">Personal Projects</a>
+          </li>
+          <li><a href="#" data-filter=".mobile_apps">Mobile Apps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cs-height_90 cs-height_lg_40"></div>
+    <div class="cs-isotop cs-style1 cs-isotop_col_2 cs-has_gutter_80">
+      <div class="cs-grid_sizer"></div>
+      <div class="cs-isotop_item ui_ux_design">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_39.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+      <div class="cs-isotop_item logo_design">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_40.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+      <div class="cs-isotop_item web_design">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_41.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+      <div class="cs-isotop_item mobile_apps">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_42.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+      <div class="cs-isotop_item ui_ux_design">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_43.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+      <div class="cs-isotop_item web_design">
+        <a href="portfolio-details.html" class="cs-portfolio cs-style1 cs-type1 rounded-0">
+          <div class="cs-portfolio_hover"></div>
+          <div class="cs-portfolio_bg cs-bg" data-src="assets/img/portfolio_44.jpeg"></div>
+          <div class="cs-portfolio_info">
+            <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+            <h2 class="cs-portfolio_title">Colorful Art Work</h2>
+            <div class="cs-portfolio_subtitle">See Details</div>
+          </div>
+        </a>
+      </div>
+      <!-- .cs-isotop_item -->
+    </div>
+    <div class="cs-height_90 cs-height_lg_40"></div>
+    <div class="text-center">
+      <a href="#" class="cs-text_btn">
+        <span>Load More</span>
+        <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM0 6.75H25V5.25H0V6.75Z"
+            fill="currentColor"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="cs-height_145 cs-height_lg_75"></div>
+  </div>
+  <!-- End Portfolio -->
+  <!-- Start Resume Section -->
+  <!-- <section class="cs-fixed_bg" data-src="assets/img/resume_bg.jpeg">
+      <div class="cs-height_145 cs-height_lg_75"></div>
+      <div class="container">
+        <div class="cs-section_heading cs-style1 text-center">
+          <h3 class="cs-section_subtitle">Resume</h3>
+          <h2
+            class="cs-section_title wow fadeInUp"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.2s"
+          >
+            Education & experience
+          </h2>
+        </div>
+        <div class="cs-height_90 cs-height_lg_45"></div>
+        <div class="cs-list_2_group">
+          <ul class="cs-list cs-style_2 cs-mp0">
+            <li>
+              <svg
+                width="25"
+                height="19"
+                viewBox="0 0 25 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_11192)">
+                  <path
+                    d="M0 6.13134C0.169315 5.45889 0.625163 5.0963 1.2373 4.81281C4.43475 3.35584 7.62568 1.8725 10.8166 0.395744C11.9302 -0.118483 13.0503 -0.131668 14.1638 0.382558C17.446 1.89887 20.7281 3.41517 24.0036 4.93148C24.6353 5.22156 24.9935 5.70282 25 6.40823C25 7.11365 24.6418 7.6015 24.0167 7.89158C20.7281 9.41448 17.4394 10.9374 14.1508 12.4537C13.0373 12.9679 11.9172 12.9481 10.8036 12.4273C7.59312 10.9374 4.38265 9.44085 1.15916 7.97069C0.566554 7.70039 0.156291 7.31802 0 6.67853C0 6.49394 0 6.31594 0 6.13134Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M4.70088 11.3525C4.86368 11.4251 5.00044 11.4844 5.13719 11.5437C6.77824 12.3019 8.4193 13.0534 10.0603 13.8248C11.6949 14.5961 13.3229 14.5895 14.9575 13.8248C16.6767 13.0139 18.4024 12.2294 20.1216 11.4317C20.1737 11.4053 20.2258 11.3921 20.3039 11.3591C20.3104 11.4448 20.3234 11.5174 20.3234 11.5833C20.3234 12.6315 20.3365 13.6732 20.3234 14.7214C20.3039 16.0992 19.6787 17.1211 18.4414 17.6749C14.4951 19.4483 10.5227 19.4417 6.57637 17.6683C5.34558 17.1211 4.72693 16.0992 4.70088 14.7346C4.68785 13.6863 4.70088 12.6447 4.70088 11.5965C4.68785 11.5239 4.69437 11.4514 4.70088 11.3525Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M23.4438 9.88916C23.4438 10.3045 23.4438 10.6869 23.4438 11.0627C23.4438 12.3812 23.4438 13.6931 23.4438 15.0116C23.4438 15.4336 23.1507 15.7632 22.76 15.8159C22.3823 15.8621 22.0111 15.6116 21.9134 15.2292C21.8874 15.1369 21.8874 15.0314 21.8874 14.9391C21.8874 13.5744 21.8874 12.2098 21.8809 10.8385C21.8809 10.6737 21.9199 10.5946 22.0762 10.5286C22.519 10.3309 22.9554 10.1199 23.4438 9.88916Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_11192">
+                    <rect width="25" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Bachelor In Web Technology</h3>
+              <p class="mb-0">University Of Florida | 2008-20012</p>
+            </li>
+            <li>
+              <svg
+                width="25"
+                height="19"
+                viewBox="0 0 25 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_1119)">
+                  <path
+                    d="M0 6.13134C0.169315 5.45889 0.625163 5.0963 1.2373 4.81281C4.43475 3.35584 7.62568 1.8725 10.8166 0.395744C11.9302 -0.118483 13.0503 -0.131668 14.1638 0.382558C17.446 1.89887 20.7281 3.41517 24.0036 4.93148C24.6353 5.22156 24.9935 5.70282 25 6.40823C25 7.11365 24.6418 7.6015 24.0167 7.89158C20.7281 9.41448 17.4394 10.9374 14.1508 12.4537C13.0373 12.9679 11.9172 12.9481 10.8036 12.4273C7.59312 10.9374 4.38265 9.44085 1.15916 7.97069C0.566554 7.70039 0.156291 7.31802 0 6.67853C0 6.49394 0 6.31594 0 6.13134Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M4.70088 11.3525C4.86368 11.4251 5.00044 11.4844 5.13719 11.5437C6.77824 12.3019 8.4193 13.0534 10.0603 13.8248C11.6949 14.5961 13.3229 14.5895 14.9575 13.8248C16.6767 13.0139 18.4024 12.2294 20.1216 11.4317C20.1737 11.4053 20.2258 11.3921 20.3039 11.3591C20.3104 11.4448 20.3234 11.5174 20.3234 11.5833C20.3234 12.6315 20.3365 13.6732 20.3234 14.7214C20.3039 16.0992 19.6787 17.1211 18.4414 17.6749C14.4951 19.4483 10.5227 19.4417 6.57637 17.6683C5.34558 17.1211 4.72693 16.0992 4.70088 14.7346C4.68785 13.6863 4.70088 12.6447 4.70088 11.5965C4.68785 11.5239 4.69437 11.4514 4.70088 11.3525Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M23.4438 9.88916C23.4438 10.3045 23.4438 10.6869 23.4438 11.0627C23.4438 12.3812 23.4438 13.6931 23.4438 15.0116C23.4438 15.4336 23.1507 15.7632 22.76 15.8159C22.3823 15.8621 22.0111 15.6116 21.9134 15.2292C21.8874 15.1369 21.8874 15.0314 21.8874 14.9391C21.8874 13.5744 21.8874 12.2098 21.8809 10.8385C21.8809 10.6737 21.9199 10.5946 22.0762 10.5286C22.519 10.3309 22.9554 10.1199 23.4438 9.88916Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_1119">
+                    <rect width="25" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Masters In Graphic Design</h3>
+              <p class="mb-0">University Of Coventry | 2013-2015</p>
+            </li>
+            <li>
+              <svg
+                width="25"
+                height="19"
+                viewBox="0 0 25 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_11197)">
+                  <path
+                    d="M0 6.13134C0.169315 5.45889 0.625163 5.0963 1.2373 4.81281C4.43475 3.35584 7.62568 1.8725 10.8166 0.395744C11.9302 -0.118483 13.0503 -0.131668 14.1638 0.382558C17.446 1.89887 20.7281 3.41517 24.0036 4.93148C24.6353 5.22156 24.9935 5.70282 25 6.40823C25 7.11365 24.6418 7.6015 24.0167 7.89158C20.7281 9.41448 17.4394 10.9374 14.1508 12.4537C13.0373 12.9679 11.9172 12.9481 10.8036 12.4273C7.59312 10.9374 4.38265 9.44085 1.15916 7.97069C0.566554 7.70039 0.156291 7.31802 0 6.67853C0 6.49394 0 6.31594 0 6.13134Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M4.70088 11.3525C4.86368 11.4251 5.00044 11.4844 5.13719 11.5437C6.77824 12.3019 8.4193 13.0534 10.0603 13.8248C11.6949 14.5961 13.3229 14.5895 14.9575 13.8248C16.6767 13.0139 18.4024 12.2294 20.1216 11.4317C20.1737 11.4053 20.2258 11.3921 20.3039 11.3591C20.3104 11.4448 20.3234 11.5174 20.3234 11.5833C20.3234 12.6315 20.3365 13.6732 20.3234 14.7214C20.3039 16.0992 19.6787 17.1211 18.4414 17.6749C14.4951 19.4483 10.5227 19.4417 6.57637 17.6683C5.34558 17.1211 4.72693 16.0992 4.70088 14.7346C4.68785 13.6863 4.70088 12.6447 4.70088 11.5965C4.68785 11.5239 4.69437 11.4514 4.70088 11.3525Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M23.4438 9.88916C23.4438 10.3045 23.4438 10.6869 23.4438 11.0627C23.4438 12.3812 23.4438 13.6931 23.4438 15.0116C23.4438 15.4336 23.1507 15.7632 22.76 15.8159C22.3823 15.8621 22.0111 15.6116 21.9134 15.2292C21.8874 15.1369 21.8874 15.0314 21.8874 14.9391C21.8874 13.5744 21.8874 12.2098 21.8809 10.8385C21.8809 10.6737 21.9199 10.5946 22.0762 10.5286C22.519 10.3309 22.9554 10.1199 23.4438 9.88916Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_11197">
+                    <rect width="25" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Diploma In Motion Graphic</h3>
+              <p class="mb-0">University Of Florida | 2018-20020</p>
+            </li>
+          </ul>
+          <ul class="cs-list cs-style_2 cs-mp0">
+            <li>
+              <svg
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_1169)">
+                  <path
+                    d="M0 16.7139C0 14.1904 0 11.667 0 9.14355C0.0229107 9.14949 0.0400937 9.14949 0.0630044 9.15543C3.45952 10.3311 6.85603 11.5007 10.2525 12.6764C10.7451 12.8486 11.2262 12.8545 11.7246 12.6882C15.0695 11.5304 18.4202 10.3786 21.7709 9.22074C21.8396 9.19699 21.9141 9.17324 21.9885 9.14949C21.9943 9.19699 22 9.22074 22 9.24449C22 11.6551 22.0057 14.0657 21.9885 16.4764C21.9885 16.8089 21.9026 17.1592 21.7652 17.462C21.284 18.5129 20.4593 18.9998 19.3366 18.9998C13.7865 18.9939 8.24212 18.9998 2.69201 18.9998C2.59464 18.9998 2.49154 18.9998 2.39417 18.9939C1.33455 18.9523 0.378027 18.1626 0.0973705 17.0998C0.0630044 16.9692 0.034366 16.8386 0 16.7139Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M0 5.13606C0.0400937 4.98762 0.0687321 4.83324 0.114554 4.68481C0.446759 3.58043 1.39755 2.85606 2.53736 2.85012C4.03801 2.84418 5.54439 2.85012 7.04504 2.85012C7.13096 2.85012 7.21114 2.85012 7.33142 2.85012C7.33142 2.50574 7.3257 2.17918 7.33142 1.85856C7.35433 0.956057 7.93856 0.231682 8.79198 0.0416819C8.91799 0.0119944 9.04973 0.00605686 9.17574 0.00605686C10.3843 0.00605686 11.5985 0.000119357 12.8071 0.00605686C13.7235 0.0119944 14.4337 0.617619 14.617 1.52606C14.6514 1.68637 14.6514 1.85262 14.6514 2.01293C14.6571 2.28012 14.6514 2.54731 14.6514 2.85012C14.7488 2.85012 14.829 2.85012 14.9149 2.85012C16.3983 2.85012 17.8761 2.85012 19.3595 2.85012C20.9117 2.85012 21.9885 3.96637 21.9885 5.58137C21.9885 6.19887 21.9828 6.81637 21.9943 7.42793C21.9943 7.57637 21.9599 7.64762 21.8167 7.69512C18.3114 8.90043 14.806 10.1176 11.295 11.317C11.1174 11.3764 10.8883 11.3823 10.7165 11.3229C7.16532 10.1117 3.60844 8.88262 0.0572768 7.65949C0.0343661 7.65356 0.017183 7.64168 0 7.62981C0 6.79856 0 5.96731 0 5.13606ZM9.17001 2.83824C10.4015 2.83824 11.6043 2.83824 12.8185 2.83824C12.8185 2.52356 12.8185 2.22074 12.8185 1.91793C11.5928 1.91793 10.3843 1.91793 9.17001 1.91793C9.17001 2.23262 9.17001 2.52356 9.17001 2.83824Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_1169">
+                    <rect width="22" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Senior Graphic Designer</h3>
+              <p class="mb-0">Web Tech | 2022-2024</p>
+            </li>
+            <li>
+              <svg
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_11691)">
+                  <path
+                    d="M0 16.7139C0 14.1904 0 11.667 0 9.14355C0.0229107 9.14949 0.0400937 9.14949 0.0630044 9.15543C3.45952 10.3311 6.85603 11.5007 10.2525 12.6764C10.7451 12.8486 11.2262 12.8545 11.7246 12.6882C15.0695 11.5304 18.4202 10.3786 21.7709 9.22074C21.8396 9.19699 21.9141 9.17324 21.9885 9.14949C21.9943 9.19699 22 9.22074 22 9.24449C22 11.6551 22.0057 14.0657 21.9885 16.4764C21.9885 16.8089 21.9026 17.1592 21.7652 17.462C21.284 18.5129 20.4593 18.9998 19.3366 18.9998C13.7865 18.9939 8.24212 18.9998 2.69201 18.9998C2.59464 18.9998 2.49154 18.9998 2.39417 18.9939C1.33455 18.9523 0.378027 18.1626 0.0973705 17.0998C0.0630044 16.9692 0.034366 16.8386 0 16.7139Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M0 5.13606C0.0400937 4.98762 0.0687321 4.83324 0.114554 4.68481C0.446759 3.58043 1.39755 2.85606 2.53736 2.85012C4.03801 2.84418 5.54439 2.85012 7.04504 2.85012C7.13096 2.85012 7.21114 2.85012 7.33142 2.85012C7.33142 2.50574 7.3257 2.17918 7.33142 1.85856C7.35433 0.956057 7.93856 0.231682 8.79198 0.0416819C8.91799 0.0119944 9.04973 0.00605686 9.17574 0.00605686C10.3843 0.00605686 11.5985 0.000119357 12.8071 0.00605686C13.7235 0.0119944 14.4337 0.617619 14.617 1.52606C14.6514 1.68637 14.6514 1.85262 14.6514 2.01293C14.6571 2.28012 14.6514 2.54731 14.6514 2.85012C14.7488 2.85012 14.829 2.85012 14.9149 2.85012C16.3983 2.85012 17.8761 2.85012 19.3595 2.85012C20.9117 2.85012 21.9885 3.96637 21.9885 5.58137C21.9885 6.19887 21.9828 6.81637 21.9943 7.42793C21.9943 7.57637 21.9599 7.64762 21.8167 7.69512C18.3114 8.90043 14.806 10.1176 11.295 11.317C11.1174 11.3764 10.8883 11.3823 10.7165 11.3229C7.16532 10.1117 3.60844 8.88262 0.0572768 7.65949C0.0343661 7.65356 0.017183 7.64168 0 7.62981C0 6.79856 0 5.96731 0 5.13606ZM9.17001 2.83824C10.4015 2.83824 11.6043 2.83824 12.8185 2.83824C12.8185 2.52356 12.8185 2.22074 12.8185 1.91793C11.5928 1.91793 10.3843 1.91793 9.17001 1.91793C9.17001 2.23262 9.17001 2.52356 9.17001 2.83824Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_11691">
+                    <rect width="22" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Project Manager</h3>
+              <p class="mb-0">Awesome Themez | 2020-2022</p>
+            </li>
+            <li>
+              <svg
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="cs-accent_color"
+              >
+                <g clip-path="url(#clip0_1848_11692)">
+                  <path
+                    d="M0 16.7139C0 14.1904 0 11.667 0 9.14355C0.0229107 9.14949 0.0400937 9.14949 0.0630044 9.15543C3.45952 10.3311 6.85603 11.5007 10.2525 12.6764C10.7451 12.8486 11.2262 12.8545 11.7246 12.6882C15.0695 11.5304 18.4202 10.3786 21.7709 9.22074C21.8396 9.19699 21.9141 9.17324 21.9885 9.14949C21.9943 9.19699 22 9.22074 22 9.24449C22 11.6551 22.0057 14.0657 21.9885 16.4764C21.9885 16.8089 21.9026 17.1592 21.7652 17.462C21.284 18.5129 20.4593 18.9998 19.3366 18.9998C13.7865 18.9939 8.24212 18.9998 2.69201 18.9998C2.59464 18.9998 2.49154 18.9998 2.39417 18.9939C1.33455 18.9523 0.378027 18.1626 0.0973705 17.0998C0.0630044 16.9692 0.034366 16.8386 0 16.7139Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M0 5.13606C0.0400937 4.98762 0.0687321 4.83324 0.114554 4.68481C0.446759 3.58043 1.39755 2.85606 2.53736 2.85012C4.03801 2.84418 5.54439 2.85012 7.04504 2.85012C7.13096 2.85012 7.21114 2.85012 7.33142 2.85012C7.33142 2.50574 7.3257 2.17918 7.33142 1.85856C7.35433 0.956057 7.93856 0.231682 8.79198 0.0416819C8.91799 0.0119944 9.04973 0.00605686 9.17574 0.00605686C10.3843 0.00605686 11.5985 0.000119357 12.8071 0.00605686C13.7235 0.0119944 14.4337 0.617619 14.617 1.52606C14.6514 1.68637 14.6514 1.85262 14.6514 2.01293C14.6571 2.28012 14.6514 2.54731 14.6514 2.85012C14.7488 2.85012 14.829 2.85012 14.9149 2.85012C16.3983 2.85012 17.8761 2.85012 19.3595 2.85012C20.9117 2.85012 21.9885 3.96637 21.9885 5.58137C21.9885 6.19887 21.9828 6.81637 21.9943 7.42793C21.9943 7.57637 21.9599 7.64762 21.8167 7.69512C18.3114 8.90043 14.806 10.1176 11.295 11.317C11.1174 11.3764 10.8883 11.3823 10.7165 11.3229C7.16532 10.1117 3.60844 8.88262 0.0572768 7.65949C0.0343661 7.65356 0.017183 7.64168 0 7.62981C0 6.79856 0 5.96731 0 5.13606ZM9.17001 2.83824C10.4015 2.83824 11.6043 2.83824 12.8185 2.83824C12.8185 2.52356 12.8185 2.22074 12.8185 1.91793C11.5928 1.91793 10.3843 1.91793 9.17001 1.91793C9.17001 2.23262 9.17001 2.52356 9.17001 2.83824Z"
+                    fill="currentColor"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1848_11692">
+                    <rect width="22" height="19" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <h3>Word Press Developer</h3>
+              <p class="mb-0">Mount Soft IT | 2018-2020</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cs-height_150 cs-height_lg_80"></div>
+    </section> -->
+  <!-- End Resume Section -->
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Backend developer</h4>
-
-                <span>2023 - 2024 </span>
-
-                <p class="timeline-text">
-                  Build&Gain PVT Ltd.
+  <!-- Start Testimonial Section -->
+  <section>
+    <div class="cs-height_145 cs-height_lg_75"></div>
+    <div class="container">
+      <div class="cs-slider cs-style2 cs-gap-24">
+        <div class="cs-slider_heading cs-style1">
+          <div class="cs-section_heading cs-style1">
+            <h3 class="cs-section_subtitle wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+              Testimonial
+            </h3>
+            <h2 class="cs-section_title">
+              What clients say <br />about my skill
+            </h2>
+          </div>
+          <div class="cs-slider_arrows cs-style1 cs-primary_color">
+            <div class="cs-left_arrow cs-center">
+              <svg width="26" height="13" viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.469791 5.96967C0.176899 6.26256 0.176899 6.73744 0.469791 7.03033L5.24276 11.8033C5.53566 12.0962 6.01053 12.0962 6.30342 11.8033C6.59632 11.5104 6.59632 11.0355 6.30342 10.7426L2.06078 6.5L6.30342 2.25736C6.59632 1.96447 6.59632 1.48959 6.30342 1.1967C6.01053 0.903806 5.53566 0.903806 5.24276 1.1967L0.469791 5.96967ZM26.0001 5.75L1.00012 5.75V7.25L26.0001 7.25V5.75Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <div class="cs-right_arrow cs-center">
+              <svg width="26" height="13" viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25.5305 7.03033C25.8233 6.73744 25.8233 6.26256 25.5305 5.96967L20.7575 1.1967C20.4646 0.903806 19.9897 0.903806 19.6968 1.1967C19.4039 1.48959 19.4039 1.96447 19.6968 2.25736L23.9395 6.5L19.6968 10.7426C19.4039 11.0355 19.4039 11.5104 19.6968 11.8033C19.9897 12.0962 20.4646 12.0962 20.7575 11.8033L25.5305 7.03033ZM0.00012207 7.25H25.0001V5.75H0.00012207V7.25Z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="cs-height_85 cs-height_lg_45"></div>
+        <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+          data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lg-slides="3"
+          data-add-slides="3">
+          <div class="cs-slider_wrapper">
+            <!-- .cs-slide -->
+            <div class="cs-slide">
+              <div class="cs-testimonial cs-style3">
+                <div class="cs-client_info">
+                  <div class="cs-client_img">
+                    <img src="assets/img/avatar_6.png" alt="avatar1" />
+                  </div>
+                  <div class="cs-client_meta">
+                    <h4 class="cs-client_name">Love luthra</h4>
+                    <p class="cs-client_designation mb-0">
+                      Performancefootfall
+                    </p>
+                  </div>
+                </div>
+                <p class="cs-client_review">
+                  I am thrilled to share my experience with poze software.
+                  Their AI solutions have truly revolutionized the way
+                  businesses operate. They have set a new standard in the
+                  industry. Highly recommended!
                 </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Art director</h4>
-
-                <span>2013 — 2015</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                <div class="cs-rating" data-rating="5">
+                  <div class="cs-rating_bg" data-src="assets/img/rating.svg"></div>
+                  <div class="cs-rating_percentage" data-src="assets/img/rating.svg"></div>
+                </div>
+              </div>
+            </div>
+            <!-- .cs-slide -->
+            <div class="cs-slide">
+              <div class="cs-testimonial cs-style3">
+                <div class="cs-client_info">
+                  <div class="cs-client_img">
+                    <img src="assets/img/avatar_7.png" alt="avatar1" />
+                  </div>
+                  <div class="cs-client_meta">
+                    <h4 class="cs-client_name">Rahul Kumar</h4>
+                    <p class="cs-client_designation mb-0">
+                      CashbackPe PRIVATE LIMITED
+                    </p>
+                  </div>
+                </div>
+                <p class="cs-client_review">
+                  I am thrilled to share my experience with poze software.
+                  Their AI solutions have truly revolutionized the way
+                  businesses operate. They have set a new standard in the
+                  industry. Highly recommended!
                 </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Web designer</h4>
-
-                <span>2010 — 2013</span>
-
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                <div class="cs-rating" data-rating="4.8">
+                  <div class="cs-rating_bg" data-src="assets/img/rating.svg"></div>
+                  <div class="cs-rating_percentage" data-src="assets/img/rating.svg"></div>
+                </div>
+              </div>
+            </div>
+            <!-- .cs-slide -->
+            <div class="cs-slide">
+              <div class="cs-testimonial cs-style3">
+                <div class="cs-client_info">
+                  <div class="cs-client_img">
+                    <img src="assets/img/avatar_1.png" alt="avatar1" />
+                  </div>
+                  <div class="cs-client_meta">
+                    <h4 class="cs-client_name">Arkendu Pal</h4>
+                    <p class="cs-client_designation mb-0">
+                      OPC PRIVATE LIMITED
+                    </p>
+                  </div>
+                </div>
+                <p class="cs-client_review">
+                  I am thrilled to share my experience with poze software.
+                  Their AI solutions have truly revolutionized the way
+                  businesses operate. They have set a new standard in the
+                  industry. Highly recommended!
                 </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
-
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Web design</h5>
-                  <data value="40">40%</data>
+                <div class="cs-rating" data-rating="5">
+                  <div class="cs-rating_bg" data-src="assets/img/rating.svg"></div>
+                  <div class="cs-rating_percentage" data-src="assets/img/rating.svg"></div>
                 </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">DataBase Design</h5>
-                  <data value="70">70%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Backend</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Backend API's</h5>
-                  <data value="95">95%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
-        - #PORTFOLIO
-      -->
-
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
-
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web design</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
+              </div>
+            </div>
+            <!-- .cs-slide -->
+          </div>
+        </div>
+        <!-- .cs-slider_container -->
+        <div class="cs-pagination cs-style1 cs-hidden_desktop"></div>
+      </div>
+      <!-- .cs-slider -->
+    </div>
+    <div class="cs-height_150 cs-height_lg_80"></div>
+  </section>
+  <!-- End Testimonial Section -->
+  <!-- Start CTA -->
+  <div class="cs-cta cs-style1 cs-bg text-center cs-shape_wrap_1 cs-position_1 cs-type_1"
+    data-src="assets/img/cta_bg_5.jpeg">
+    <div class="cs-shape_1"></div>
+    <div class="cs-shape_1"></div>
+    <div class="cs-shape_1"></div>
+    <div class="cs-cta_in">
+      <h2 class="cs-cta_title cs-semi_bold cs-m0">
+        Let’s disscuse & make <br />something cool together.
+      </h2>
+      <div class="cs-height_70 cs-height_lg_30"></div>
+      <a href="contact.html" class="cs-text_btn wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+        <span>Apply For Meeting</span>
+        <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.5307 6.53033C25.8236 6.23744 25.8236 5.76256 25.5307 5.46967L20.7577 0.696699C20.4648 0.403806 19.99 0.403806 19.6971 0.696699C19.4042 0.989593 19.4042 1.46447 19.6971 1.75736L23.9397 6L19.6971 10.2426C19.4042 10.5355 19.4042 11.0104 19.6971 11.3033C19.99 11.5962 20.4648 11.5962 20.7577 11.3033L25.5307 6.53033ZM0.000366211 6.75H25.0004V5.25H0.000366211V6.75Z"
+            fill="currentColor" />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <!-- End CTA -->
+  <!-- Start Footer -->
+  <footer class="cs-fooer">
+    <div class="cs-fooer_main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="cs-footer_item">
+              <div class="cs-text_widget">
+                <img src="assets/img/footer_logo.svg" alt="Thumb" />
+                <p>
+                  We committed to providing exceptional service and quality.
+                  Let's build a future together with trust and innovation.
+                </p>
+              </div>
+              <div class="cs-social_btns cs-style1">
+                <a href="#" class="cs-center">
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M4.04799 13.7497H1.45647V5.4043H4.04799V13.7497ZM2.75084 4.2659C1.92215 4.2659 1.25 3.57952 1.25 2.75084C1.25 2.35279 1.40812 1.97105 1.68958 1.68958C1.97105 1.40812 2.35279 1.25 2.75084 1.25C3.14888 1.25 3.53063 1.40812 3.81209 1.68958C4.09355 1.97105 4.25167 2.35279 4.25167 2.75084C4.25167 3.57952 3.57924 4.2659 2.75084 4.2659ZM13.7472 13.7497H11.1613V9.68722C11.1613 8.71903 11.1417 7.4774 9.81389 7.4774C8.46652 7.4774 8.26004 8.5293 8.26004 9.61747V13.7497H5.67132V5.4043H8.15681V6.54269H8.19308C8.53906 5.887 9.38421 5.19503 10.6451 5.19503C13.2679 5.19503 13.75 6.92215 13.75 9.16546V13.7497H13.7472Z"
+                      fill="white" />
+                  </svg>
+                </a>
+                <a href="#" class="cs-center">
+                  <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.4651 2.95396C11.4731 3.065 11.4731 3.17606 11.4731 3.2871C11.4731 6.67383 8.89535 10.5761 4.18402 10.5761C2.73255 10.5761 1.38421 10.1557 0.25 9.42608C0.456226 9.44986 0.654494 9.4578 0.868655 9.4578C2.06629 9.4578 3.16879 9.0533 4.04918 8.36326C2.92291 8.33946 1.97906 7.60183 1.65386 6.5866C1.81251 6.61038 1.97112 6.62624 2.1377 6.62624C2.36771 6.62624 2.59774 6.59451 2.81188 6.53901C1.63802 6.30105 0.757595 5.26996 0.757595 4.02472V3.99301C1.09864 4.18336 1.49524 4.30233 1.91558 4.31818C1.22554 3.85814 0.773464 3.07294 0.773464 2.1846C0.773464 1.70872 0.900344 1.27249 1.12244 0.891774C2.38355 2.44635 4.27919 3.46156 6.40481 3.57262C6.36516 3.38226 6.34136 3.184 6.34136 2.9857C6.34136 1.57388 7.4835 0.423828 8.90323 0.423828C9.64086 0.423828 10.3071 0.733156 10.7751 1.23284C11.354 1.1218 11.9093 0.907643 12.401 0.614185C12.2106 1.20906 11.8061 1.70875 11.2748 2.02598C11.7903 1.97049 12.29 1.82769 12.75 1.62942C12.4011 2.13702 11.9648 2.5891 11.4651 2.95396V2.95396Z"
+                      fill="white" />
+                  </svg>
+                </a>
+                <a href="#" class="cs-center">
+                  <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.4888 1.48066C12.345 0.939353 11.9215 0.513038 11.3837 0.368362C10.4089 0.105469 6.5 0.105469 6.5 0.105469C6.5 0.105469 2.59116 0.105469 1.61633 0.368362C1.07853 0.513061 0.65496 0.939353 0.5112 1.48066C0.25 2.4618 0.25 4.50887 0.25 4.50887C0.25 4.50887 0.25 6.55595 0.5112 7.53709C0.65496 8.0784 1.07853 8.48695 1.61633 8.63163C2.59116 8.89452 6.5 8.89452 6.5 8.89452C6.5 8.89452 10.4088 8.89452 11.3837 8.63163C11.9215 8.48695 12.345 8.0784 12.4888 7.53709C12.75 6.55595 12.75 4.50887 12.75 4.50887C12.75 4.50887 12.75 2.4618 12.4888 1.48066V1.48066ZM5.22158 6.36746V2.65029L8.48861 4.50892L5.22158 6.36746V6.36746Z"
+                      fill="white" />
+                  </svg>
+                </a>
+                <a href="#" class="cs-center">
+                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2.87612 8.149C2.87612 8.87165 2.28571 9.46205 1.56306 9.46205C0.840402 9.46205 0.25 8.87165 0.25 8.149C0.25 7.42634 0.840402 6.83594 1.56306 6.83594H2.87612V8.149ZM3.53795 8.149C3.53795 7.42634 4.12835 6.83594 4.851 6.83594C5.57366 6.83594 6.16406 7.42634 6.16406 8.149V11.4369C6.16406 12.1596 5.57366 12.75 4.851 12.75C4.12835 12.75 3.53795 12.1596 3.53795 11.4369V8.149ZM4.851 2.87612C4.12835 2.87612 3.53795 2.28571 3.53795 1.56306C3.53795 0.840402 4.12835 0.25 4.851 0.25C5.57366 0.25 6.16406 0.840402 6.16406 1.56306V2.87612H4.851V2.87612ZM4.851 3.53795C5.57366 3.53795 6.16406 4.12835 6.16406 4.851C6.16406 5.57366 5.57366 6.16406 4.851 6.16406H1.56306C0.840402 6.16406 0.25 5.57366 0.25 4.851C0.25 4.12835 0.840402 3.53795 1.56306 3.53795H4.851V3.53795ZM10.1239 4.851C10.1239 4.12835 10.7143 3.53795 11.4369 3.53795C12.1596 3.53795 12.75 4.12835 12.75 4.851C12.75 5.57366 12.1596 6.16406 11.4369 6.16406H10.1239V4.851V4.851ZM9.46205 4.851C9.46205 5.57366 8.87165 6.16406 8.149 6.16406C7.42634 6.16406 6.83594 5.57366 6.83594 4.851V1.56306C6.83594 0.840402 7.42634 0.25 8.149 0.25C8.87165 0.25 9.46205 0.840402 9.46205 1.56306V4.851V4.851ZM8.149 10.1239C8.87165 10.1239 9.46205 10.7143 9.46205 11.4369C9.46205 12.1596 8.87165 12.75 8.149 12.75C7.42634 12.75 6.83594 12.1596 6.83594 11.4369V10.1239H8.149ZM8.149 9.46205C7.42634 9.46205 6.83594 8.87165 6.83594 8.149C6.83594 7.42634 7.42634 6.83594 8.149 6.83594H11.4369C12.1596 6.83594 12.75 7.42634 12.75 8.149C12.75 8.87165 12.1596 9.46205 11.4369 9.46205H8.149Z"
+                      fill="white" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cs-footer_item">
+              <h2 class="cs-widget_title">Services</h2>
+              <ul class="cs-menu_widget cs-mp0">
+                <li>
+                  <a href="service-details.html">Web Developer</a>
                 </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web design</button>
+                <li>
+                  <a href="service-details.html">Web Development</a>
                 </li>
-
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
+                <li>
+                  <a href="service-details.html">App Development</a>
                 </li>
               </ul>
             </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.jpg"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-2.png"
-                      alt="orizon"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Orizon</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="fundo"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Fundo</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Brawlhalla</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="dsm."
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">DSM.</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">MetaSpark</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-7.png"
-                      alt="summary"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Summary</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Task Manager</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-9.png"
-                      alt="arrival"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Arrival</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
-        - #BLOG
-      -->
-
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
-
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-1.jpg"
-                      alt="Design conferences in 2022"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Design conferences in 2022
-                    </h3>
-
-                    <p class="blog-text">
-                      Veritatis et quasi architecto beatae vitae dicta sunt,
-                      explicabo.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-2.jpg"
-                      alt="Best fonts every designer"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Best fonts every designer
-                    </h3>
-
-                    <p class="blog-text">
-                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
-                      est eligendi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-3.jpg"
-                      alt="Design digest #80"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                    <p class="blog-text">
-                      Excepteur sint occaecat cupidatat no proident, quis
-                      nostrum exercitationem ullam corporis suscipit.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-4.jpg"
-                      alt="UI interactions of the week"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      UI interactions of the week
-                    </h3>
-
-                    <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis
-                      nostrud exercitation ullamco laboris nisi.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-5.jpg"
-                      alt="The forgotten art of spacing"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      The forgotten art of spacing
-                    </h3>
-
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                      et dolore magna aliqua.
-                    </p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-6.jpg"
-                      alt="Design digest #79"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat,
-                      velit esse cillum.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
-        - #CONTACT
-      -->
-
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
-
-          <!-- <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-                width="400"
-                height="300"
-                loading="lazy"
-              ></iframe>
-            </figure>
-          </section> -->
-
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
-
-            <form action="" class="form" data-form>
-              <div class="input-wrapper">
-                  <input
-                      type="text"
-                      name="fullname"
-                      class="form-input"
-                      placeholder="Full name"
-                      required
-                      data-form-input
-                  />
-                  <input
-                      type="email"
-                      name="email"
-                      class="form-input"
-                      placeholder="Email address"
-                      required
-                      data-form-input
-                  />
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cs-footer_item">
+              <h2 class="cs-widget_title">Contact Us</h2>
+              <ul class="cs-menu_widget cs-mp0">
+                <li>Mirjanhat, Warshaligang road, Bhagalpur, Bihar, India</li>
+                <li>+91 9955302489</li>
+                <li>bhagataryan75@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="cs-footer_item">
+              <h2 class="cs-widget_title">Subscribe</h2>
+              <div class="cs-newsletter cs-style1">
+                <form action="#" class="cs-newsletter_form">
+                  <input type="email" class="cs-newsletter_input" placeholder="example@gmail.com" />
+                  <button class="cs-newsletter_btn">
+                    <span>Send</span>
+                  </button>
+                </form>
+                <div class="cs-newsletter_text">
+                  Stay informed with our latest updates. Subscribe to our
+                  newsletter for exclusive content and offers.
+                </div>
               </div>
-              <textarea
-                  name="message"
-                  class="form-input"
-                  placeholder="Your Message"
-                  required
-                  data-form-input
-              ></textarea>
-              <button class="form-btn" type="submit" disabled data-form-btn onclick="sendEmail()">
-                  <ion-icon name="paper-plane"></ion-icon>
-                  <span>Send Message</span>
-              </button>
-          </form>
-          </section>
-        </article>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
+    <div class="container">
+      <div class="cs-bottom_footer">
+        <div class="cs-bottom_footer_left">
+          <div class="cs-copyright">
+            Copyright © 2024 | All rights reserved.
+          </div>
+        </div>
+        <div class="cs-bottom_footer_right">
+          <ul class="cs-footer_links cs-mp0">
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <span class="cs-scrollup">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10L1.7625 11.7625L8.75 4.7875V20H11.25V4.7875L18.225 11.775L20 10L10 0L0 10Z" fill="currentColor" />
+    </svg>
+  </span>
+  <!-- Start Video Popup -->
+  <div class="cs-video_popup">
+    <div class="cs-video_popup_overlay"></div>
+    <div class="cs-video_popup_content">
+      <div class="cs-video_popup_layer"></div>
+      <div class="cs-video_popup_container">
+        <div class="cs-video_popup_align">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="about:blank"></iframe>
+          </div>
+        </div>
+        <div class="cs-video_popup_close"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Video Popup -->
+  <!-- Script -->
+  <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkg.min.js"></script>
+  <script src="assets/js/plugins/jquery.slick.min.js"></script>
+  <script src="assets/js/plugins/jquery.counter.min.js"></script>
+  <script src="assets/js/plugins/lightgallery.min.js"></script>
+  <script src="assets/js/plugins/wow.min.js"></script>
+  <script src="assets/js/plugins/gsap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 
-    <!--
-    - custom js link
-  -->
-    <script src="./assets/js/script.js"></script>
-
-    <!--
-    - ionicon link
-  -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
