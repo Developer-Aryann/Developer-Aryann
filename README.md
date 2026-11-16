@@ -1,24 +1,32 @@
-<img src="https://avatars.githubusercontent.com/u/109226533?v=4&amp;s=160" width="96" height="96" alt="Aryan Raj’s GitHub profile picture" align="right">
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/109226533?v=4&amp;s=192" width="104" height="104" alt="Aryan Raj’s GitHub profile picture">
+</p>
 
-# Aryan Raj
+<h1 align="center">Hey, I’m Aryan Raj 👋</h1>
+<p align="center"><strong>Full-stack web developer · PHP &amp; Laravel</strong><br>Bhagalpur, Bihar, India</p>
 
-**Full-stack web developer · PHP & Laravel**  
-Bhagalpur, Bihar, India
+I build web applications, REST APIs, and admin dashboards. I enjoy making the backend easier to maintain and the frontend easier to use.
 
-I build web applications and APIs with PHP and Laravel. My work spans backend services, admin dashboards, responsive websites, and Flutter apps. I’m interested in Laravel queues and improving database query performance.
+## ⚙️ At my workbench
 
-## Featured repositories
-
-| Project | What you’ll find |
+| | |
 | --- | --- |
-| [Digitricksmedia](https://github.com/Developer-Aryann/Digitricksmedia) | A static agency website with services, portfolio, team, blog, and contact pages. |
-| [Music Downloader](https://github.com/Developer-Aryann/Music-Downloader) | A web application built with Next.js, React, and Tailwind CSS. |
-| [IFSC API](https://github.com/Developer-Aryann/ifsc-api) | A copy of Razorpay’s Ruby API server for looking up Indian bank branches by IFSC code. [Upstream project](https://github.com/razorpay/ifsc-api) |
+| **Backend** | PHP · Laravel · REST APIs |
+| **Frontend** | JavaScript · React · Next.js · Tailwind CSS |
+| **Mobile** | Flutter · Dart |
 
-## Technologies
+## ☕ Currently curious about
 
-**Backend** · PHP, Laravel, REST APIs  
-**Frontend** · HTML, CSS, JavaScript, React, Next.js, Tailwind CSS  
-**Mobile** · Flutter and Dart
+How much work can I move off the request path with Laravel queues? Which database queries are worth optimizing first? Those are two questions I like taking into a codebase.
 
-[Browse public repositories](https://github.com/Developer-Aryann?tab=repositories) · [Telegram](https://t.me/Coderaryan)
+<details>
+<summary>🧰 My debugging routine</summary>
+
+```text
+$ reproduce → read the logs → fix → verify
+  If the logs get chatty, bring coffee.
+```
+
+</details>
+
+<p align="center"><a href="https://t.me/Coderaryan">Say hello on Telegram</a></p>
