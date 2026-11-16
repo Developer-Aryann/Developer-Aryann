@@ -1,32 +1,37 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/109226533?v=4&amp;s=192" width="104" height="104" alt="Aryan Raj’s GitHub profile picture">
+  <img src="assets/profile-hero.svg" width="100%" alt="Aryan Raj · Full-stack developer · PHP and Laravel · Bhagalpur, India">
 </p>
 
-<h1 align="center">Hey, I’m Aryan Raj 👋</h1>
-<p align="center"><strong>Full-stack web developer · PHP &amp; Laravel</strong><br>Bhagalpur, Bihar, India</p>
+<img align="right" src="https://avatars.githubusercontent.com/u/109226533?v=4&amp;s=192" width="92" height="92" alt="Aryan Raj’s GitHub profile picture">
 
-I build web applications, REST APIs, and admin dashboards. I enjoy making the backend easier to maintain and the frontend easier to use.
+## Hey, I’m Aryan 👋
 
-## ⚙️ At my workbench
+I build web applications, REST APIs, and admin dashboards with **PHP and Laravel**. I like working across the stack, from the query behind a dashboard to the screen someone uses every day.
 
-| | |
-| --- | --- |
-| **Backend** | PHP · Laravel · REST APIs |
-| **Frontend** | JavaScript · React · Next.js · Tailwind CSS |
-| **Mobile** | Flutter · Dart |
+[**Say hello on Telegram ↗**](https://t.me/Coderaryan)
 
-## ☕ Currently curious about
+## The workbench
 
-How much work can I move off the request path with Laravel queues? Which database queries are worth optimizing first? Those are two questions I like taking into a codebase.
+| ⚙️ Backend | 🎨 Frontend | 📱 Mobile |
+| :--- | :--- | :--- |
+| `PHP` · `Laravel` | `JavaScript` · `React` · `Next.js` | `Dart` · `Flutter` |
+| API design and database queries | Responsive interfaces with Tailwind CSS | Mobile app interfaces |
+
+### 🔍 Two questions on my desk
+
+- **Laravel queues** · What work can move off the request path?
+- **Database performance** · Which query is doing more work than it needs to?
 
 <details>
-<summary>🧰 My debugging routine</summary>
+<summary><strong>☕ Open the debugging console</strong></summary>
 
 ```text
-$ reproduce → read the logs → fix → verify
-  If the logs get chatty, bring coffee.
+$ reproduce
+$ read-the-logs
+$ fix
+$ verify
+
+One more coffee if it only fails in production.
 ```
 
 </details>
-
-<p align="center"><a href="https://t.me/Coderaryan">Say hello on Telegram</a></p>
